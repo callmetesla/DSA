@@ -38,7 +38,6 @@ void printlevelorderqueue(node* root){
 
 }
 void printlevel(node* root,int level){
-
     if(root==NULL)
         return;
     if(level==1)
@@ -52,7 +51,7 @@ void printlevel(node* root,int level){
 
 
 void printInorder(node* Node){
-        if(Node==NULL)
+        if(jode==NULL)
             return;
         printInorder(Node->left);
         cout<<Node->data<< "  ";
